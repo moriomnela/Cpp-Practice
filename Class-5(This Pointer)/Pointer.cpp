@@ -10,18 +10,12 @@ class Teacher{
             string dept;
             string subject;
 
-        //1.Non Parameterized Constructor
-       Teacher(){
-           //cout << "Hi I am Constructor" << endl;
-           //dept = "Computer Science";
-      }
-
       //2.Parameterized Constructor
-      Teacher(string n,string d,string s,double sal ){
-             name=n;
-             dept =d;
-             subject=s;
-             salary=sal;
+      Teacher(string name,string dept,string subject,double salary ){
+             this->name=name;
+             this->dept =dept;
+             this->subject=subject;
+             this->salary=salary;
 }
 
 

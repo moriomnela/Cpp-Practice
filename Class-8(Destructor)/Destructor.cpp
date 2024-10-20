@@ -14,6 +14,7 @@
 
       ~Student(){
           cout << "Hi I delete everything\n";
+          delete cgpaPtr;
       }
       void getInfo(){
          cout << "name: " << name << endl;

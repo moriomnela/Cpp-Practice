@@ -39,7 +39,7 @@ int main(){
     //cout << t1.dept << endl;
     Teacher t1("Moriom","Computer Science","C++",25000);//constructor call
     //t1.getinfo();
-    Teacher t2(t1);//Default copy Constructor
+    Teacher t2(t1);//custom copy Constructor
     t2.getinfo();
 return 0;
 }

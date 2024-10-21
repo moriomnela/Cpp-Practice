@@ -11,11 +11,13 @@
           cgpaPtr=new double;
           *cgpaPtr=cgpa;
       }
-
+      //destructor
       ~Student(){
           cout << "Hi I delete everything\n";
           delete cgpaPtr;
       }
+
+
       void getInfo(){
          cout << "name: " << name << endl;
          cout << "cgpa: " << *cgpaPtr << endl;
@@ -24,7 +26,6 @@
  int main(){
      Student s1("Moriom",8.9);
      s1.getInfo();
-
-
  return 0;
  }
+

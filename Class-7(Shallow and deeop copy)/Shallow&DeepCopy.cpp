@@ -19,9 +19,7 @@
          cout << "name: " << name << endl;
          cout << "cgpa: " << *cgpaPtr << endl;
       }
-
  };
-
  int main(){
      Student s1("Moriom",8.9);
      Student s2(s1);

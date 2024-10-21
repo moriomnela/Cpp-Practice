@@ -10,12 +10,11 @@
        this->name=name;
        this->age=age;
     }
-
  };
  class Student:public person {
      public:
          int roll;
-         Student(string name,int age,int roll):person( name, age){
+         Student(string name,int age,int roll):person( name,age){
            this->roll=roll;
          }
 
